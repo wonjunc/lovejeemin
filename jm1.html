@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+    <h1>원청쓰♥김찌밍</a></h1>
+    <h4>우리만의 홈페이지</h4>
+    <title>원청쓰♥김찌밍</title>
+    <style>
+      @media(min-width: 800px){
+      div {display: none;}}
+      div {border: 5px solid green;
+           font-size: 50px;}
+    </style>
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li>자기야</a></li>
+				<li>사랑해</a></li>
+			</ul>
+		</nav>
+    <input id="night_day" type="button" value="불끄기" onclick="
+      var target = document.querySelector('body');
+      if(this.value === '불끄기'){
+        target.style.backgroundColor = 'black';
+        target.style.color = 'white';
+        this.value = '불켜기';
+      } else {
+        target.style.backgroundColor = 'white';
+        target.style.color = 'black';
+        this.value = '불끄기';
+        }
+    ">
+	</body>
+</html>
